@@ -7,11 +7,7 @@
 ### Day-04 : https://youtu.be/ee5sNe6G6SQ
 ---
 
-## Git & GitHub Class Notes
-
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Source Code Repository Tools (or) Version Control Softwares
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+## Source Code Repository Tools (or) Version Control Softwares
 
 -> Multiple developers will work for project development
 
@@ -21,22 +17,18 @@ Source Code Repository Tools (or) Version Control Softwares
 
 -> To integrate all the developers source code at one place we will use Sourcecode Repository Softwares
 
-++++++++++++++++++++++++++++++++++++++++++++++
-Advantages with Source code repository sofwares
-++++++++++++++++++++++++++++++++++++++++++++++
+# Advantages with Source code repository sofwares
 
 1) All the developers can connect to repository server and can integrate the code
 
 2) Repository server will provide monitored access
 
 				- Who
-			  - When
+			        - When
 				- Why
 				- What
 
-++++++++++++++++
-Repository Tools
-++++++++++++++++
+# Repository Tools
 
 SVN (outdated)
 
@@ -44,9 +36,7 @@ Git Hub
 
 BitBucket
 
-++++++++++++++++
-Git And GitHub
-++++++++++++++++
+# Git And GitHub
 
 - **Git** is a version control software.
 - **GitHub** is a platform used to store all developers' project source code in one place.
@@ -276,68 +266,109 @@ git merge
 
 - Useful for contributing to open-source projects.
 
+## Questions
 
+-> What is Source Code repository ?
 
----
+-> Why we need source code repository ?
 
+-> What are the source code repository servers available ?
 
---------------------------------------------------------------------------------------------------
-What is Source Code repository
-Why we need source code repository
-What are the source code repository servers available
-What is Code Integration
-What is Monitored Access 
-What is git hub
-What is git 
-What is version control
-What is Repository
-Public Repository vs Private Repository
-Cloning Repository
-Staged vs Unstaged vs Untracked File
-Adding Files to Stating Area
-Unstaging the files from staging
-Discarding local changes
-What is working tree
-What is Local Repostiory
-What is Central Repository
-Commit from working tree to local repo
-push from local repo to central repo
-Taking latest code changes
-push vs pull
-What is conflict
-How to resolve conflicts
-What is branch in git hub
-How to create branches
-How to clone particular branch
-how to switch to particular branch
-How to merge branches
-What is pull request
-git merge vs rebase
-what is .gitignore
+-> What is Code Integration ?
+
+-> What is Monitored Access ?
+
+-> What is git hub ?
+
+-> What is git ? 
+
+-> What is version control ?
+
+-> What is Repository ?
+
+-> Public Repository vs Private Repository
+
+-> Cloning Repository
+
+-> Staged vs Unstaged vs Untracked File
+
+-> Adding Files to Stating Area
+
+-> Unstaging the files from staging
+
+-> Discarding local changes
+
+-> What is working tree ?
+
+-> What is Local Repostiory ?
+
+-> What is Central Repository ?
+
+-> Commit from working tree to local repo ?
+
+-> push from local repo to central repo ?
+
+-> Taking latest code changes ?
+
+-> push vs pull ?
+
+-> What is conflict ?
+
+-> How to resolve conflicts ?
+
+-> What is branch in git hub ?
+
+-> How to create branches ?
+
+-> How to clone particular branch ?
+
+-> how to switch to particular branch ?
+
+-> How to merge branches ?
+
+-> What is pull request ?
+
+-> git merge vs rebase ?
+
+-> what is .gitignore ?
+
+## Git Commands
 
 git init
+
 git help
+
 git config
+
 git clone 
+
 git status
+
 git add .
+
 git add <file-name>
+
 git restore
+
 git commit
+
 git push
+
 git pull
+
 git log
+
 git rm
+
 git branch
+
 git checkout
+
 git merge
+
 git rebase
 
-
-
-+++++++++++
-Assignment
-++++++++++
+## Assignment
 
 1) Create Maven Web Application
 2) Added 'Spring-Core' dependency in project pom.xml file
