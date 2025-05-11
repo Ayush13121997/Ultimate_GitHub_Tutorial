@@ -9,6 +9,45 @@
 
 ## Git & GitHub Class Notes
 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Source Code Repository Tools (or) Version Control Softwares
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+-> Multiple developers will work for project development
+
+-> Developers will be working from multiple locations
+
+-> All developers code should be store at one place (Code Integration Should Happen)
+
+-> To integrate all the developers source code at one place we will use Sourcecode Repository Softwares
+
+++++++++++++++++++++++++++++++++++++++++++++++
+Advantages with Source code repository sofwares
+++++++++++++++++++++++++++++++++++++++++++++++
+
+1) All the developers can connect to repository server and can integrate the code
+
+2) Repository server will provide monitored access
+
+				- Who
+			  - When
+				- Why
+				- What
+
+++++++++++++++++
+Repository Tools
+++++++++++++++++
+
+SVN (outdated)
+
+Git Hub
+
+BitBucket
+
+++++++++++++++++
+Git And GitHub
+++++++++++++++++
+
 - **Git** is a version control software.
 - **GitHub** is a platform used to store all developers' project source code in one place.
 - On GitHub, we can create repositories to store project code.
@@ -237,4 +276,77 @@ git merge
 
 - Useful for contributing to open-source projects.
 
+
+
 ---
+
+
+--------------------------------------------------------------------------------------------------
+What is Source Code repository
+Why we need source code repository
+What are the source code repository servers available
+What is Code Integration
+What is Monitored Access 
+What is git hub
+What is git 
+What is version control
+What is Repository
+Public Repository vs Private Repository
+Cloning Repository
+Staged vs Unstaged vs Untracked File
+Adding Files to Stating Area
+Unstaging the files from staging
+Discarding local changes
+What is working tree
+What is Local Repostiory
+What is Central Repository
+Commit from working tree to local repo
+push from local repo to central repo
+Taking latest code changes
+push vs pull
+What is conflict
+How to resolve conflicts
+What is branch in git hub
+How to create branches
+How to clone particular branch
+how to switch to particular branch
+How to merge branches
+What is pull request
+git merge vs rebase
+what is .gitignore
+
+git init
+git help
+git config
+git clone 
+git status
+git add .
+git add <file-name>
+git restore
+git commit
+git push
+git pull
+git log
+git rm
+git branch
+git checkout
+git merge
+git rebase
+
+
+
++++++++++++
+Assignment
+++++++++++
+
+1) Create Maven Web Application
+2) Added 'Spring-Core' dependency in project pom.xml file
+3) Package maven project as war file using maven goal
+4) Create Git repository in github.com (public repo)
+5) Push maven project into github repo using gitbash
+   (target folder shouldn't be commited, add this is .gitignore file)
+6) Make changes in pom.xml and push changes to github repo using git bash
+7) Create 'feature' branch in git repo from main branch
+8) Clone feature branch from git bash using git clone
+9) Make changes in 'feature' branch pom.xml file and push changes to central repo
+10) Create pull request and merge 'feature' branch changes to 'main' branch
